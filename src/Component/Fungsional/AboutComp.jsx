@@ -1,6 +1,7 @@
-import React from 'react'
+import React, { useContext } from 'react'
 import { Jumbotron, Button } from 'reactstrap';
 import { Container, Row, Col } from 'reactstrap';
+import { CartContext } from '../../CartContext';
 import CardComp from './CardComp';
 
 function AboutComp() {
